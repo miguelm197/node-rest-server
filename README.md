@@ -1,5 +1,8 @@
 # node-rest-server
 Servicio API REST en Node para prácticas de curso de Udemy
+Documentación de la API POSTMAN: 
+``https://documenter.getpostman.com/view/4873591/T1LJkoqv?version=latest#0141fa10-0ea0-4008-a7e0-c354f24ca64e``
+
 
 ## Probar servicio con POSTMAN
 
