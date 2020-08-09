@@ -38,6 +38,20 @@ El token que regresa, se debe colocar en el header del resto de llamadas como `t
 .
 .
 
+### Login GOOGLE - POST
+``
+https://protected-waters-03098.herokuapp.com/google
+``
+
+Se debe obtener el token de google, autenticandose una vez desde el navegador y obtenerlo de la consola donde actualmente se está visualizando debajo del correo.
+
+#### Body
+- `idtoken` Token obtenido en la consola del navegador 
+
+.
+.
+.
+
 ### Obtener usuarios - GET
 ``
 https://protected-waters-03098.herokuapp.com/usuario?desde=[DESDE]&limite=[HASTA]
