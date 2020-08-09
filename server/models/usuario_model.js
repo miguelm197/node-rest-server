@@ -40,6 +40,7 @@ let usuarioSchema = new Schema({
   },
 });
 
+// Quita la propiedad password del objeto que retorna el modelo por temas de seguridad
 usuarioSchema.methods.toJSON = function () {
   let user = this;
   let userObject = user.toObject();
